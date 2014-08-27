@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD2A0D519ACDEC100F1C489 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD2A0D419ACDEC100F1C489 /* Foundation.framework */; };
+		FAD2A0D719ACDEC100F1C489 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD2A0D619ACDEC100F1C489 /* CoreGraphics.framework */; };
+		FAD2A0D919ACDEC100F1C489 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD2A0D819ACDEC100F1C489 /* UIKit.framework */; };
+		FAD2A0DF19ACDEC100F1C489 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAD2A0DD19ACDEC100F1C489 /* InfoPlist.strings */; };
+		FAD2A0E119ACDEC100F1C489 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2A0E019ACDEC100F1C489 /* main.m */; };
+		FAD2A0E519ACDEC100F1C489 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2A0E419ACDEC100F1C489 /* AppDelegate.m */; };
+		FAD2A0E819ACDEC100F1C489 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD2A0E619ACDEC100F1C489 /* Main.storyboard */; };
+		FAD2A0EB19ACDEC100F1C489 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2A0EA19ACDEC100F1C489 /* ViewController.m */; };
+		FAD2A0ED19ACDEC100F1C489 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD2A0EC19ACDEC100F1C489 /* Images.xcassets */; };
+		FAD2A0F419ACDEC100F1C489 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD2A0F319ACDEC100F1C489 /* XCTest.framework */; };
+		FAD2A0F519ACDEC100F1C489 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD2A0D419ACDEC100F1C489 /* Foundation.framework */; };
+		FAD2A0F619ACDEC100F1C489 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD2A0D819ACDEC100F1C489 /* UIKit.framework */; };
+		FAD2A0FE19ACDEC100F1C489 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAD2A0FC19ACDEC100F1C489 /* InfoPlist.strings */; };
+		FAD2A10019ACDEC100F1C489 /* ImageMapErrorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2A0FF19ACDEC100F1C489 /* ImageMapErrorTests.m */; };
+		FAD2A10C19ACDF9100F1C489 /* MTImageMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2A10B19ACDF9100F1C489 /* MTImageMapView.m */; };
+		FAD2A10F19ACE3FC00F1C489 /* carFront300.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD2A10D19ACE3FC00F1C489 /* carFront300.png */; };
+		FAD2A11019ACE3FC00F1C489 /* carRear300.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD2A10E19ACE3FC00F1C489 /* carRear300.png */; };
+		FAD2A11619ACE43600F1C489 /* carFrontPartsCoordinates.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAD2A11219ACE43600F1C489 /* carFrontPartsCoordinates.plist */; };
+		FAD2A11719ACE43600F1C489 /* carFrontPartsNames.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAD2A11319ACE43600F1C489 /* carFrontPartsNames.plist */; };
+		FAD2A11819ACE43600F1C489 /* carRearPartsCoordinates.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAD2A11419ACE43600F1C489 /* carRearPartsCoordinates.plist */; };
+		FAD2A11919ACE43600F1C489 /* carRearPartsNames.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAD2A11519ACE43600F1C489 /* carRearPartsNames.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD2A0F719ACDEC100F1C489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD2A0C919ACDEC100F1C489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD2A0D019ACDEC100F1C489;
+			remoteInfo = ImageMapError;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAD2A0D119ACDEC100F1C489 /* ImageMapError.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageMapError.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD2A0D419ACDEC100F1C489 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAD2A0D619ACDEC100F1C489 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAD2A0D819ACDEC100F1C489 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAD2A0DC19ACDEC100F1C489 /* ImageMapError-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageMapError-Info.plist"; sourceTree = "<group>"; };
+		FAD2A0DE19ACDEC100F1C489 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAD2A0E019ACDEC100F1C489 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAD2A0E219ACDEC100F1C489 /* ImageMapError-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageMapError-Prefix.pch"; sourceTree = "<group>"; };
+		FAD2A0E319ACDEC100F1C489 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAD2A0E419ACDEC100F1C489 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAD2A0E719ACDEC100F1C489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD2A0E919ACDEC100F1C489 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAD2A0EA19ACDEC100F1C489 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAD2A0EC19ACDEC100F1C489 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAD2A0F219ACDEC100F1C489 /* ImageMapErrorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageMapErrorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD2A0F319ACDEC100F1C489 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FAD2A0FB19ACDEC100F1C489 /* ImageMapErrorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageMapErrorTests-Info.plist"; sourceTree = "<group>"; };
+		FAD2A0FD19ACDEC100F1C489 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAD2A0FF19ACDEC100F1C489 /* ImageMapErrorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageMapErrorTests.m; sourceTree = "<group>"; };
+		FAD2A10A19ACDF9100F1C489 /* MTImageMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTImageMapView.h; sourceTree = "<group>"; };
+		FAD2A10B19ACDF9100F1C489 /* MTImageMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTImageMapView.m; sourceTree = "<group>"; };
+		FAD2A10D19ACE3FC00F1C489 /* carFront300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = carFront300.png; path = MTImageMapView/carFront300.png; sourceTree = "<group>"; };
+		FAD2A10E19ACE3FC00F1C489 /* carRear300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = carRear300.png; path = MTImageMapView/carRear300.png; sourceTree = "<group>"; };
+		FAD2A11219ACE43600F1C489 /* carFrontPartsCoordinates.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = carFrontPartsCoordinates.plist; sourceTree = "<group>"; };
+		FAD2A11319ACE43600F1C489 /* carFrontPartsNames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = carFrontPartsNames.plist; sourceTree = "<group>"; };
+		FAD2A11419ACE43600F1C489 /* carRearPartsCoordinates.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = carRearPartsCoordinates.plist; sourceTree = "<group>"; };
+		FAD2A11519ACE43600F1C489 /* carRearPartsNames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = carRearPartsNames.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD2A0CE19ACDEC100F1C489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD2A0D719ACDEC100F1C489 /* CoreGraphics.framework in Frameworks */,
+				FAD2A0D919ACDEC100F1C489 /* UIKit.framework in Frameworks */,
+				FAD2A0D519ACDEC100F1C489 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD2A0EF19ACDEC100F1C489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD2A0F419ACDEC100F1C489 /* XCTest.framework in Frameworks */,
+				FAD2A0F619ACDEC100F1C489 /* UIKit.framework in Frameworks */,
+				FAD2A0F519ACDEC100F1C489 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD2A0C819ACDEC100F1C489 = {
+			isa = PBXGroup;
+			children = (
+				FAD2A0DA19ACDEC100F1C489 /* ImageMapError */,
+				FAD2A0F919ACDEC100F1C489 /* ImageMapErrorTests */,
+				FAD2A0D319ACDEC100F1C489 /* Frameworks */,
+				FAD2A0D219ACDEC100F1C489 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD2A0D219ACDEC100F1C489 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2A0D119ACDEC100F1C489 /* ImageMapError.app */,
+				FAD2A0F219ACDEC100F1C489 /* ImageMapErrorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD2A0D319ACDEC100F1C489 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2A0D419ACDEC100F1C489 /* Foundation.framework */,
+				FAD2A0D619ACDEC100F1C489 /* CoreGraphics.framework */,
+				FAD2A0D819ACDEC100F1C489 /* UIKit.framework */,
+				FAD2A0F319ACDEC100F1C489 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAD2A0DA19ACDEC100F1C489 /* ImageMapError */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2A10919ACDF9100F1C489 /* MTImageMapView */,
+				FAD2A11119ACE40A00F1C489 /* Resources */,
+				FAD2A0E319ACDEC100F1C489 /* AppDelegate.h */,
+				FAD2A0E419ACDEC100F1C489 /* AppDelegate.m */,
+				FAD2A0E619ACDEC100F1C489 /* Main.storyboard */,
+				FAD2A0E919ACDEC100F1C489 /* ViewController.h */,
+				FAD2A0EA19ACDEC100F1C489 /* ViewController.m */,
+				FAD2A0EC19ACDEC100F1C489 /* Images.xcassets */,
+				FAD2A0DB19ACDEC100F1C489 /* Supporting Files */,
+			);
+			path = ImageMapError;
+			sourceTree = "<group>";
+		};
+		FAD2A0DB19ACDEC100F1C489 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2A0DC19ACDEC100F1C489 /* ImageMapError-Info.plist */,
+				FAD2A0DD19ACDEC100F1C489 /* InfoPlist.strings */,
+				FAD2A0E019ACDEC100F1C489 /* main.m */,
+				FAD2A0E219ACDEC100F1C489 /* ImageMapError-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAD2A0F919ACDEC100F1C489 /* ImageMapErrorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2A0FF19ACDEC100F1C489 /* ImageMapErrorTests.m */,
+				FAD2A0FA19ACDEC100F1C489 /* Supporting Files */,
+			);
+			path = ImageMapErrorTests;
+			sourceTree = "<group>";
+		};
+		FAD2A0FA19ACDEC100F1C489 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2A0FB19ACDEC100F1C489 /* ImageMapErrorTests-Info.plist */,
+				FAD2A0FC19ACDEC100F1C489 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAD2A10919ACDF9100F1C489 /* MTImageMapView */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2A10A19ACDF9100F1C489 /* MTImageMapView.h */,
+				FAD2A10B19ACDF9100F1C489 /* MTImageMapView.m */,
+			);
+			path = MTImageMapView;
+			sourceTree = "<group>";
+		};
+		FAD2A11119ACE40A00F1C489 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2A11219ACE43600F1C489 /* carFrontPartsCoordinates.plist */,
+				FAD2A11319ACE43600F1C489 /* carFrontPartsNames.plist */,
+				FAD2A11419ACE43600F1C489 /* carRearPartsCoordinates.plist */,
+				FAD2A11519ACE43600F1C489 /* carRearPartsNames.plist */,
+				FAD2A10D19ACE3FC00F1C489 /* carFront300.png */,
+				FAD2A10E19ACE3FC00F1C489 /* carRear300.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD2A0D019ACDEC100F1C489 /* ImageMapError */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD2A10319ACDEC100F1C489 /* Build configuration list for PBXNativeTarget "ImageMapError" */;
+			buildPhases = (
+				FAD2A0CD19ACDEC100F1C489 /* Sources */,
+				FAD2A0CE19ACDEC100F1C489 /* Frameworks */,
+				FAD2A0CF19ACDEC100F1C489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageMapError;
+			productName = ImageMapError;
+			productReference = FAD2A0D119ACDEC100F1C489 /* ImageMapError.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD2A0F119ACDEC100F1C489 /* ImageMapErrorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD2A10619ACDEC100F1C489 /* Build configuration list for PBXNativeTarget "ImageMapErrorTests" */;
+			buildPhases = (
+				FAD2A0EE19ACDEC100F1C489 /* Sources */,
+				FAD2A0EF19ACDEC100F1C489 /* Frameworks */,
+				FAD2A0F019ACDEC100F1C489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD2A0F819ACDEC100F1C489 /* PBXTargetDependency */,
+			);
+			name = ImageMapErrorTests;
+			productName = ImageMapErrorTests;
+			productReference = FAD2A0F219ACDEC100F1C489 /* ImageMapErrorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD2A0C919ACDEC100F1C489 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					FAD2A0F119ACDEC100F1C489 = {
+						TestTargetID = FAD2A0D019ACDEC100F1C489;
+					};
+				};
+			};
+			buildConfigurationList = FAD2A0CC19ACDEC100F1C489 /* Build configuration list for PBXProject "ImageMapError" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD2A0C819ACDEC100F1C489;
+			productRefGroup = FAD2A0D219ACDEC100F1C489 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD2A0D019ACDEC100F1C489 /* ImageMapError */,
+				FAD2A0F119ACDEC100F1C489 /* ImageMapErrorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD2A0CF19ACDEC100F1C489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD2A11719ACE43600F1C489 /* carFrontPartsNames.plist in Resources */,
+				FAD2A10F19ACE3FC00F1C489 /* carFront300.png in Resources */,
+				FAD2A0ED19ACDEC100F1C489 /* Images.xcassets in Resources */,
+				FAD2A11919ACE43600F1C489 /* carRearPartsNames.plist in Resources */,
+				FAD2A11619ACE43600F1C489 /* carFrontPartsCoordinates.plist in Resources */,
+				FAD2A11819ACE43600F1C489 /* carRearPartsCoordinates.plist in Resources */,
+				FAD2A11019ACE3FC00F1C489 /* carRear300.png in Resources */,
+				FAD2A0DF19ACDEC100F1C489 /* InfoPlist.strings in Resources */,
+				FAD2A0E819ACDEC100F1C489 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD2A0F019ACDEC100F1C489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD2A0FE19ACDEC100F1C489 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD2A0CD19ACDEC100F1C489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD2A10C19ACDF9100F1C489 /* MTImageMapView.m in Sources */,
+				FAD2A0EB19ACDEC100F1C489 /* ViewController.m in Sources */,
+				FAD2A0E519ACDEC100F1C489 /* AppDelegate.m in Sources */,
+				FAD2A0E119ACDEC100F1C489 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD2A0EE19ACDEC100F1C489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD2A10019ACDEC100F1C489 /* ImageMapErrorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD2A0F819ACDEC100F1C489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD2A0D019ACDEC100F1C489 /* ImageMapError */;
+			targetProxy = FAD2A0F719ACDEC100F1C489 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD2A0DD19ACDEC100F1C489 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD2A0DE19ACDEC100F1C489 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAD2A0E619ACDEC100F1C489 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD2A0E719ACDEC100F1C489 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAD2A0FC19ACDEC100F1C489 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD2A0FD19ACDEC100F1C489 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD2A10119ACDEC100F1C489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FAD2A10219ACDEC100F1C489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD2A10419ACDEC100F1C489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageMapError/ImageMapError-Prefix.pch";
+				INFOPLIST_FILE = "ImageMapError/ImageMapError-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAD2A10519ACDEC100F1C489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageMapError/ImageMapError-Prefix.pch";
+				INFOPLIST_FILE = "ImageMapError/ImageMapError-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FAD2A10719ACDEC100F1C489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageMapError.app/ImageMapError";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageMapError/ImageMapError-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ImageMapErrorTests/ImageMapErrorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FAD2A10819ACDEC100F1C489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageMapError.app/ImageMapError";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageMapError/ImageMapError-Prefix.pch";
+				INFOPLIST_FILE = "ImageMapErrorTests/ImageMapErrorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD2A0CC19ACDEC100F1C489 /* Build configuration list for PBXProject "ImageMapError" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD2A10119ACDEC100F1C489 /* Debug */,
+				FAD2A10219ACDEC100F1C489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD2A10319ACDEC100F1C489 /* Build configuration list for PBXNativeTarget "ImageMapError" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD2A10419ACDEC100F1C489 /* Debug */,
+				FAD2A10519ACDEC100F1C489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAD2A10619ACDEC100F1C489 /* Build configuration list for PBXNativeTarget "ImageMapErrorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD2A10719ACDEC100F1C489 /* Debug */,
+				FAD2A10819ACDEC100F1C489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD2A0C919ACDEC100F1C489 /* Project object */;
+}

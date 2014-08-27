@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Scheinwerfer rechts</string>
+	<string>Motorhaube</string>
+	<string>Scheinwerfer links</string>
+	<string>Frontscheibe</string>
+	<string>Schiebedach</string>
+	<string>Außenspiegel links</string>
+	<string>Seitenscheibe vorne links</string>
+	<string>Seitenscheibe hinten links</string>
+	<string>C-Säule</string>
+	<string>Seitenwand hinten links</string>
+	<string>Nebelscheinwerfer rechts</string>
+	<string>Stoßfänger vorne</string>
+	<string>Nebelscheinwerfer links</string>
+	<string>Reifen vorne links</string>
+	<string>Felge vorne links</string>
+	<string>Seitenwand vorne links</string>
+	<string>Tür vorne links</string>
+	<string>Schweller links</string>
+	<string>Tür hinten links</string>
+	<string>Felgen hinten links</string>
+	<string>Reifen hinten links</string>
+</array>
+</plist>
